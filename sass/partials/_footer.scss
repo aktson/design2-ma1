@@ -1,0 +1,15 @@
+footer {
+  padding: 2em;
+  border-top: 1px solid $dark;
+  margin: auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.fa-brands {
+  font-size: 1.5em;
+  margin-right: 1em;
+}
