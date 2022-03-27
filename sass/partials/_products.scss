@@ -14,13 +14,14 @@
   }
   img {
     height: 70vh;
-    filter: drop-shadow(12px 12px 12px rgba(0, 0, 0, 0.1));
-    filter: grayscale(100%);
+    filter: grayscale(100%) drop-shadow(12px 12px 12px rgba(0, 0, 0, 0.2));
   }
 
   .hero-content {
     position: absolute;
-    top: 50%;
+    width: 70%;
+    margin: 0 auto;
+    bottom: 5%;
     left: 0;
     right: 0;
     background-color: $dark-orange;
