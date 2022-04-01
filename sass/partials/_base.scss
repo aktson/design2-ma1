@@ -17,9 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: url("/images/background.jpg");
-  background-position: center;
-  background-repeat: repeat;
+  background: url("/images/background2.jpg") repeat center;
   background-size: cover;
   font-family: $body-fonts;
 }
