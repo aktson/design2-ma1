@@ -40,6 +40,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.4em;
+  padding: 0.8em;
 
   h2 {
     grid-column: 1/-1;
@@ -91,5 +92,13 @@
     padding: 6px;
     width: 40px;
     cursor: pointer;
+  }
+
+  @media (max-width: $medium) {
+    grid-template-columns: repeat(2, 1fr);
+    height: 200px;
+  }
+  @media (max-width: $small) {
+    grid-template-columns: auto;
   }
 }
