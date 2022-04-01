@@ -36,6 +36,7 @@ h2,
 h3,
 h4 {
   font-family: $heading-fonts;
+  font-weight: 250;
 }
 h1 {
   font-size: 4em;
@@ -50,6 +51,7 @@ h2 {
 }
 
 .btn {
+  font-family: $cta-fonts;
   background: $dark-orange;
   border: none;
   padding: 1em;
